@@ -1,0 +1,20 @@
+.contact-table {
+    width: 25vw;
+    margin: 2rem;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+
+    margin:3rem;
+
+    align-items: center;
+    justify-content: center;
+}
+
+table, th, td {
+    // border: 1px solid black;
+    // border-collapse: collapse;
+    text-align: center;
+}

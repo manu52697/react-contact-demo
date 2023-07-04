@@ -1,0 +1,18 @@
+@mixin contact-icon($color : darkorange) {
+    height: 5rem;
+    aspect-ratio: 1;
+    color: $color;
+    cursor: pointer;
+}
+
+.contact-online {
+    @include contact-icon(green);
+}
+
+.contact-offline {
+    @include contact-icon;
+}
+
+.contact-trash {
+    @include contact-icon(red);
+}
